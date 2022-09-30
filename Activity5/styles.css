@@ -1,0 +1,39 @@
+
+
+.blue-box {
+    background-color: rgb(104, 104, 241);
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 500px;
+    margin: 30px
+}
+
+.pink-box{
+    display:flex
+}
+
+.lower-container {
+    display: flex;
+    
+}
+
+.pink-box {
+    background-color: pink;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    justify-content: center;
+}
+
+.yellow-box{
+    display:flex;
+    background-color: yellow;
+    height: 30px;
+    width: 80px;
+    margin-top: 5px;
+    
+    
+}
+

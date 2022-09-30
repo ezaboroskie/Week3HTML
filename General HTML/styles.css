@@ -1,0 +1,26 @@
+
+/*
+body
+"background-color: coral; color: white;
+*/
+
+/*Apply the style based on the elemen's tag */
+body {
+    background-color: coral;
+    color:white
+}
+
+ul {
+    background-color: crimson
+}
+
+h1 {
+    background-color: blueviolet
+}
+
+/* Apply the style based on class (not the same as python classes)*/
+
+.news-list{
+    background-color: blue;
+    color: yellow
+}

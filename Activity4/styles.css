@@ -1,0 +1,58 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body{
+        background-color: green
+    }
+
+    menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*@media (min-width: 481px) and (max-width: 767px) {
+
+    body{
+        background-color: orange
+    }
+}
+
+@media (min-width: 1281px) {
+
+    body{
+        background-color: purple
+    }
+}
+*/
+menu {
+    background-color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+menu li {
+    margin:10px;
+}
+
+.blocks {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.blocks div{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+
+/*
+Flex Direction = Row: justify-content moves items horiz
+Flex Direction = Row: align-items moves items vertically 
+Flex Direction = Column: align-items moves items horizontally 
+Flex Direction = Column: justify-content moves items vertically  
+*/
